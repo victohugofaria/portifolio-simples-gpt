@@ -96,12 +96,29 @@ main #section-projects{
     height: 250px;
 }
 
-main #section-projects .container-projects{
+main #section-projects .button-projects{
+    width: 150px;
+    height: 180px;
     margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+main #section-projects .container-projects{
     width: 150px;
     height: 180px;
     border: 2px groove;
     border-radius: 10px;
+}
+
+main #section-projects .button-projects:hover{
+    opacity: 0.7;
+}
+
+main #section-projects .button-projects:active{
+    opacity: 0.5;
 }
 
 main #section-projects .container-projects .image-section{
