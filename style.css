@@ -28,6 +28,15 @@ main #navbar{
 main #navbar .navbar-link{
     margin-left: 10px;
     color: rgb(17, 15, 15);
+    text-decoration: none;
+}
+
+main #navbar .navbar-link:hover{
+    opacity: 0.8;
+}
+
+main #navbar .navbar-link:active{
+    opacity: 0.5;
 }
 
 main #navbar #navbar-child1{
